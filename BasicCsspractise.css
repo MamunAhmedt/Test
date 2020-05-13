@@ -1,0 +1,91 @@
+p[class="title-name"]{
+font-size: 20px;
+text-align: center;
+color: blue;
+background-color: red;
+font-family: "teko" ,sans-serif;
+
+}
+
+p[class="title-History"]{
+font-size: 20px;
+margin-left: 12%;
+text-align: center;
+color: blue;
+display: inline;
+/* background-color: red; */
+font-family: "teko" ,sans-serif;
+
+}
+
+div[class="container"]{
+height: 95vh;
+width: 95vw;
+border: 1px solid red;
+background: gray;
+margin: 20px;
+
+}
+
+div[class="container-items1"]{
+height: 30%;
+width: 14%;
+border: 1px dotted white;
+float: right;
+margin: 3px;
+margin-top: 30px;
+background-image: url("Picture1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+div[class="container-items2"]{
+height:80%;
+width: 35%;
+border: 1px solid white;
+margin:5px;
+margin-top: 3px;
+text-align: justify;
+color: blue;
+overflow: scroll;
+/* background-image: url("Picture1.jpg"); */
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+div[class="container-items3"]{
+height:80%;
+width: 35%;
+border: 1px solid white;
+margin:5px;
+float: right;
+text-align: justify;
+color: blue;
+/* overflow: scroll; */
+/* background-image: url("Picture1.jpg"); */
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+/* div[class="container-items"]{
+height:72%;
+width: 31%;
+border: 1px solid white;
+margin:4px;
+float: left;
+display: block;
+background-image: url("https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347557380l/166396.jpg");
+/* margin-top: -570px;
+margin-left: 570px; */
+text-align: justify;
+background-size: cover;
+color: blue;
+
+/* background-image: url("Picture1.jpg"); */
+background-repeat: no-repeat;
+background-size:auto;
+
+} */
