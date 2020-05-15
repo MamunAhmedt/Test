@@ -1,0 +1,26 @@
+.container{
+margin: 10px;
+height: 80vh;
+width: 80vw;
+display: flex;
+flex-direction: row;
+/* flex-wrap: wrap; */
+/* justify-content: center;
+align-items: center; */
+border: 2px solid red; tyr  /* NOTE: + */
+}
+
+/* //flex-basis ="it defines the minimum width of a content" */
+
+.container-items{
+  height: 12%;
+  /* width: 20%; */
+/* background-size:cover; */
+/* background-color: green; */
+background-color: green;
+/* background-size: contain; */
+margin: 5px;
+text-align: center;
+
+
+}
