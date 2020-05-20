@@ -14,8 +14,8 @@ border: 2px solid red; tyr  /* NOTE: + */
 /* //flex-basis ="it defines the minimum width of a content" */
 
 .container-items{
-  height: 12%;
-   width: 20%;
+  /* height: 12%;
+   width: 20%; */
 /* background-size:cover; */
 /* background-color: green; */
 /* background-color: green; */

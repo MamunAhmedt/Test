@@ -1,0 +1,146 @@
+.Into{
+
+  height: 100vh;
+  width: 95vw;
+  margin: 0.3% 0 0 0.3%;
+  background:linear-gradient(to bottom, rgba(184,225,252,1), rgba(169,210,243,1) , rgba(144,186,228,1), rgba(144,188,234,1)) ;
+}
+.greetings{
+text-align: center;
+font-family: 'Cinzel', serif;
+font-size: 1.5em;
+
+
+}
+
+p{
+  margin: 0;
+}
+
+.name{
+
+text-align: center;
+text-transform: uppercase;
+font-size: 2em;
+font-weight: 500;
+font-family: 'Cinzel',serif;
+animation: animationforname;
+animation-duration: 10s;
+animation-timing-function: ease-in-out;
+animation-delay: 5s;
+animation-iteration-count: infinite;
+
+}
+
+.profileimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: 80%;
+
+}
+
+.second-body{
+  height: 100vh;
+  width: 95vw;
+  margin-left: 3px;
+  background:linear-gradient(to bottom, rgba(184,225,252,1), rgba(169,210,243,1) , rgba(144,186,228,1), rgba(144,188,234,1)) ;
+
+}
+
+.About-Me{
+  text-align: center;
+  font-family: 'Cinzel',serif;
+  font-size: 1.5em;
+  font-weight:650;
+
+}
+.About-Me-details{
+text-transform: capitalize;
+text-align: justify;
+text-align: center;
+font-family: 'Cinzel',serif;
+font-size: 1.5em;
+margin-top: 15px;
+
+}
+.linksbody{
+background:linear-gradient(to right,#42275a,#734b6d);
+height: 60%;
+width: 99%;
+display: grid;
+grid-template-columns: auto auto auto;
+margin-top: 3%;
+
+
+
+}
+
+.links-container{
+
+display: flex;
+justify-content: center;
+align-items: center;
+overflow:hidden;
+height: 95%;
+width: 93%;
+margin: 10px;
+}
+
+
+.links-container-items{
+
+height:auto;
+width: auto;
+/* border: 1px solid red; */
+
+}
+
+.sidebar-left{
+height:59%;
+margin: 10px;
+background-image: url("Picture1.jpg");
+background-repeat: no-repeat;
+background-size:contain;
+border: 1px solid red;
+transform:translate(20%,30%);
+}
+
+.sidebar-right{
+height:59%;
+margin: 10px;
+background-image: url("Picture1.jpg");
+background-repeat: no-repeat;
+background-size:contain;
+ border: 1px solid red;
+ transform:translate(-20%,30%);
+}
+
+@keyframes animationforname{
+
+  0% {
+    color:red;
+    transform: rotate(10turn);
+  }
+  20%{
+    color:green;
+    transform: rotate(5turn);
+  }
+
+  40%{
+    color:blue;
+  }
+
+  60%{
+    color:yellow;
+  }
+
+  80%{
+    color:pink;
+  }
+  100%{
+    color:gray;
+  }
+
+}
